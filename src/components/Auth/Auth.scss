@@ -1,0 +1,103 @@
+.sign-image img {
+    width: 805px;
+    height: 781px;
+    object-fit: contain;
+}
+
+.sign {
+    display: flex;
+    gap: 200px;
+}
+
+.sign-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 100px;
+
+}
+
+.sign-text h1 {
+    /* Heading/36PX Medium */
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 4%;
+    text-align: left;
+}
+
+.sign-text h3 {
+    /* Title/16PX Regular */
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.sign-text h4 {
+    color: rgb(86, 86, 86);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.line{
+    width: 370px;
+    height: 2px;
+    background: gray;
+}
+
+.brown {
+    width: 371px;
+    height: 56px;
+    border-radius: 4px;
+    background: rgb(219, 68, 68);
+
+    color: rgb(250, 250, 250);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.white {
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    width: 371px;
+    height: 56px;
+
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.text {
+    display: flex;
+    gap: 10px;
+}
+
+.text p {
+    /* Title/16PX Regular */
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}

@@ -1,0 +1,25 @@
+.home {
+    display: flex;
+    justify-content: space-between;
+   
+
+    .home-sidebar {
+        width: 217px;
+        border-right: 1px solid #000;
+        padding-right: 16px;
+        ul {
+            margin-top: 25px;
+        }
+    }
+
+    .home-carousel {
+        width: 890px;
+        img {
+            margin-top: 25px;
+        }
+    }
+}
+.products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
